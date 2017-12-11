@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfIntro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfIntro"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="500">
+    <Grid>
+        <Label x:Name="Label1" Content="1" HorizontalAlignment="Left" Margin="97,113,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Label2" Content="2" HorizontalAlignment="Left" Margin="97,156,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Label3" Content="3" HorizontalAlignment="Left" Margin="97,200,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Label4" Content="4" HorizontalAlignment="Left" Margin="97,241,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Line1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="line1" VerticalAlignment="Top" Width="120" Margin="154,116,0,0"/>
+        <TextBox x:Name="Line2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="line2" VerticalAlignment="Top" Width="120" Margin="154,156,0,0"/>
+        <TextBox x:Name="Line3" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="line3" VerticalAlignment="Top" Width="120" Margin="154,200,0,0"/>
+        <TextBox x:Name="Line4" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="line4" VerticalAlignment="Top" Width="120" Margin="154,245,0,0"/>
+        <Button x:Name="ScrolUp" Content="Scrol up" HorizontalAlignment="Left" Margin="333,139,0,0" VerticalAlignment="Top" Width="75" Click="ScrolUp_Click"/>
+        <Button x:Name="Clear" Content="Clear" HorizontalAlignment="Left" Margin="333,178,0,0" VerticalAlignment="Top" Width="75" Click="Clear_Click"/>
+        <Button x:Name="ScrolDown" Content="Scrol down" HorizontalAlignment="Left" Margin="333,222,0,0" VerticalAlignment="Top" Width="75" Click="ScrolDown_Click"/>
+
+
+    </Grid>
+</Window>
